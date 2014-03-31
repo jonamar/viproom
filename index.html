@@ -27,6 +27,27 @@
 		html,body {
 		  	height: 100%;
 		  	font-family: "futura-pt",sans-serif;
+		  	color: white;
+		  	font-size: 14px;
+		}
+
+		html { 
+			background: black url(images/background.jpg) no-repeat top center fixed; 
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+			-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg')";
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		body {
+			background: transparent url(images/vip-room.png) no-repeat top center fixed; 
+			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/vip-room.png', sizingMethod='scale');
+			-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/vip-room.png')";
+			-webkit-background-size: contain;
+			-moz-background-size: contain;
+			-o-background-size: contain;
+			background-size: contain;			
 		}
 
 		.table-wrapper {		
@@ -40,30 +61,31 @@
 		  	display: table-cell;   
 		  	vertical-align: middle;  
 		}
-		.cent {
+		.center {
 		  	width: 300px;
 		  	padding: 20px;
-		  	background-color: rgba(255,255,255,0.94);      
+		  	background-color: rgba(52, 133, 170, 0.8);      
 		}
-
-		html { 
-			background: url(http://p1.pichost.me/i/24/1474388.jpg) no-repeat center center fixed; 
-			filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://p1.pichost.me/i/24/1474388.jpg', sizingMethod='scale');
-			-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://p1.pichost.me/i/24/1474388.jpg')";
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-
 
 		.facebook-button {
-			background: yellow;
+			background: rgba(67, 67, 156, 0.9);
+			color: white;
 			display: block;
-			margin: 0 auto;
+			margin: 0 auto 20px;
 			padding: 20px;
 			text-decoration: none;
 			text-align: center;
+			font-size: 18px;
+		}
+
+		input {
+			font-size: 12px;
+			border: none;
+			background: rgba(52, 133, 170, 1);
+			color: white;
+			display: block;
+			width: 100%;
+			padding: 5px;
 		}
         </style>
 
@@ -76,10 +98,11 @@
 
 		<div class="table-wrapper">
 		  <div class="container">
-		    <div class="cent">
+		    <div class="center">
 		    	<a href="#" class="facebook-button"><i class="fa fa-facebook-square"></i> Sign Up with Facebook</a>
+		    	<h1>Get Unbeatable Deals in Hong Kong</h1>
 		    	<form>
-		    		<input type="text" placeholder="email" />
+		    		<input type="text" placeholder="E-mail..." />
 		    		<button type="submit">Sign Up!</button>
 		    	</form>
 		    </div>
