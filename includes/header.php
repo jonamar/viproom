@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
+    <!-- Typekit -->
+    <script type="text/javascript" src="//use.typekit.net/qfp5eye.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <!-- CSS -->
     <link href="/stylesheets/styles.css" rel="stylesheet">
 
