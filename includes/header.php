@@ -7,7 +7,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- CSS -->
-    <link href="stylesheets/styles.css" rel="stylesheet">
+    <link href="/stylesheets/styles.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,14 +17,3 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>
-      <i class="fa fa-camera-retro"></i> fa-camera-retro
-    </p>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="javascripts/bootstrap.min.js"></script>
-  </body>
-</html>
