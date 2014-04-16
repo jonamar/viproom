@@ -2,14 +2,21 @@
 // ---------------------
 
 // Colors
-$brand-primary:         #cb4170;
+$brand-primary:         #812147;
 $brand-success:         #91a346;
 $brand-info:            #275993;
-$brand-warning:         #f16f3d;
-$brand-danger:          #812147;
+$brand-warning:         #8e529e;
+$brand-danger:          #f16f3d;
 
 // Typography
 $font-family-sans-serif: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Scaffolding
 $body-bg:               #f2f2f2;
+
+// Components
+$border-radius-base:    0;
+
+// Buttons
+$btn-font-weight:       lighter;
+$btn-default-border:    transparent;

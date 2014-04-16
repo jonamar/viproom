@@ -1,0 +1,105 @@
+// variables
+$vr-nav-height: 120px;
+
+$vr-list-box-width: 73px;
+$vr-list-box-height: $vr-list-box-width;
+$vr-list-box-right: 436px;
+
+body {
+  padding-top: $vr-nav-height;
+}
+
+// list box
+.list-box {
+  margin: $font-size-base 0 0 $vr-list-box-right;
+  width: 525px;
+  float: right;
+
+  .btn {
+    width: $vr-list-box-width;
+    height: $vr-list-box-height;
+    //background: $brand-danger;
+    float: left;
+    margin-right: $font-size-base / 2;
+    text-align: center;
+    color: $body-bg;
+    font-size: $font-size-small;
+    padding: 0;
+  }
+
+  // dropdown buttons
+  .lb-currency {
+    margin-bottom: $font-size-base / 2;
+  }
+  .btn-group button {
+    width: 116px;
+    height: 33px;
+  }
+
+  // icon circle borders
+  .vr-fa-circled:before {
+    border: 1px solid $body-bg;
+    border-radius: 100px;
+    padding-top: 11px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+    display: inline-block;
+  }
+}
+
+// hover animations
+i {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  text-decoration: none;
+
+  i {
+    -webkit-transform: rotateZ(360deg) rotateY(360deg);
+    -ms-transform: rotateZ(360deg) rotateY(360deg);
+    transform: rotateZ(360deg) rotateY(360deg);
+  }
+  // the circle
+  .vr-fa-circled:before {
+    background: white;
+  }
+}
+
+// hover icon color
+.btn-primary:hover i {
+  color: $brand-primary;
+}
+.btn-warning:hover i {
+  color: $brand-warning;
+}
+.btn-success:hover i {
+  color: $brand-success;
+}
+.btn-info:hover i {
+  color: $brand-info;
+}
+.btn-danger:hover i {
+  color: $brand-danger;
+}
+
+
+// list nav
+.list-nav {
+  margin: $font-size-base 0;
+  text-align: right;
+
+  a {
+    color: $body-bg;
+    font-size: $font-size-h4;
+    padding: 0 $font-size-base;
+  }
+
+  .active {
+    color: $brand-primary;
+  }
+}
