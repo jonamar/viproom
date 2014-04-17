@@ -13,12 +13,10 @@ body {
 .list-box {
   margin: $font-size-base 0 0 $vr-list-box-right;
   width: 525px;
-  float: right;
 
   .btn {
     width: $vr-list-box-width;
     height: $vr-list-box-height;
-    //background: $brand-danger;
     float: left;
     margin-right: $font-size-base / 2;
     text-align: center;
@@ -34,18 +32,6 @@ body {
   .btn-group button {
     width: 116px;
     height: 33px;
-  }
-
-  // icon circle borders
-  .vr-fa-circled:before {
-    border: 1px solid $body-bg;
-    border-radius: 100px;
-    padding-top: 11px;
-    width: 40px;
-    height: 40px;
-    font-size: 16px;
-    margin: 5px;
-    display: inline-block;
   }
 }
 

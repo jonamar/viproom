@@ -1,7 +1,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="row">
-    <ul class="list-unstyled list-box">
+    <ul class="list-unstyled list-box pull-right">
       <li>
         <a class="btn btn-primary" href="#">
           <i class="fa fa-user vr-fa-circled"></i><br>
