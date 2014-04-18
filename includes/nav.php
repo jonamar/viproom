@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-inverse navbar-main" role="navigation">
   <div class="container">
     <div class="row">
 
@@ -78,8 +78,9 @@
     </div><!-- .row -->
 
     <!-- category nav -->
-    <div class="row">
+    <div class="row category-nav" data-spy="affix" data-offset-top="87">
       <div class="col-md-12">
+        <img class="logo-fixed" src="/images/vip-room-logo.png" height="50"/>
         <ul class="list-inline list-nav">
           <li>
             <a href="#">New</a>
@@ -105,15 +106,29 @@
         </ul>
       </div>
     </div><!-- .row -->
-    <div class="row bread-n-search">
-      <ol class="breadcrumb">
-        <li><a href="#">Fashion</a></li>
-        <li><a href="#">Curator</a></li>
-        <li class="active">Ni Ni</li>
-      </ol>
-      <div class="search input-group">
-        <input type="text" class="form-control input-sm" placeholder="Search">
-      </div><!-- .input-group -->
-    </div><!-- .row.bread-n-search -->
   </div><!-- .container -->
 </nav>
+
+<div class="container">
+  <!-- breadcrumb & search -->
+  <div class="row bread-n-search">
+    <div class="col-md-offset-2 col-md-6">
+      <ol class="breadcrumb">
+        <li>
+          <a href="#">Fashion</a>
+        </li>
+        <li>
+          <a href="#">Curator</a>
+        </li>
+        <li class="active">
+          Ni Ni
+        </li>
+      </ol>
+    </div><!-- .col-md-offset-2.col-md-6 -->
+    <div class="col-md-4">
+      <div class="search input-group pull-right">
+        <input type="text" class="form-control input-sm" placeholder="Search">
+      </div><!-- .input-group -->
+    </div><!-- col-md-4 -->
+  </div><!-- .row.bread-n-search -->
+</div><!-- .container -->

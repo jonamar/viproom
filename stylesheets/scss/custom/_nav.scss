@@ -1,12 +1,11 @@
 // variables
-$vr-nav-height: 220px;
-
 $vr-list-box-width: 73px;
 $vr-list-box-height: $vr-list-box-width;
 $vr-list-box-right: 436px;
 
-body {
-  padding-top: $vr-nav-height;
+.navbar-main {
+  margin-bottom: 80px;
+  min-height: 142px;
 }
 
 .logo {
@@ -79,11 +78,37 @@ i {
 }
 
 
-// list nav
-.list-nav {
-  margin: $font-size-base 0;
-  text-align: right;
+// category nav
+.category-nav {
 
+  .logo-fixed {
+    opacity: 0;
+    position: absolute;
+  }
+
+  &.affix {
+    background: $navbar-inverse-bg;
+    z-index: 10000;
+    top: 0;
+    left: 15px;
+    width: 100%;
+
+    .list-nav {
+      width: 970px;
+      margin-left: 17px;
+    }
+
+    .logo-fixed {
+      opacity: 1;
+      -webkit-transition: all .5s;
+      transition: all .5s;
+    }
+  }
+
+  .list-nav {
+    margin: $font-size-base 0;
+    text-align: right;
+  }
   a {
     color: $body-bg;
     font-size: $font-size-h4;
@@ -102,24 +127,40 @@ i {
 
 // breadcrumbs and search
 .bread-n-search {
-  position: relative;
+  margin-top: -76px;
 
   .breadcrumb, .search {
-    position: absolute;
     background: transparent;
   }
 
   .breadcrumb {
-    top: 7px;
-    left: 193px;
+    padding-left: 30px;
   }
 
   .search {
-    top: 10px;
-    left: 730px;
+    position: relative;
 
     input {
       width: 220px;
+      padding-right: 24px;
+    }
+    &:before {
+      content: "\f002";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      display: block;
+      line-height: 1;
+      position: absolute;
+      font-size: 14px;
+      color: $gray-light;
+      top: 10px;
+      left: 200px;
+      margin: -3px 0 0 -2px;
+      z-index: 100;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
   }
 }

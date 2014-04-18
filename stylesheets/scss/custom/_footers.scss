@@ -1,0 +1,47 @@
+// Sticky Footer
+.stickyfooter {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+
+  .showhide-button {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 34px;
+    padding: 0 20px;
+    background: $navbar-inverse-bg;
+    color: $body-bg;
+
+    &.showhide-button:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  #stickyfooter {
+      height: 270px;
+      background:#e9e9e9;
+      padding-top: 20px;
+      background: $navbar-inverse-bg;
+      color: $body-bg;
+  }
+
+  .closed i {
+    -webkit-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+  }
+}
+
+// Legal Footer
+.legal-footer {
+  padding-top: 8px;
+
+  p {
+    margin-bottom: 8px;
+  }
+}
