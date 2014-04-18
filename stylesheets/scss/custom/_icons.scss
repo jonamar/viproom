@@ -18,3 +18,17 @@
   font-size: 12px;
   margin: 3px;
 }
+
+.vr-fa-square {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: $text-muted;
+  background: $brand-success;
+  padding-top: 8px;
+
+  &:hover {
+    background-color: darken($brand-success, 8%);
+    border-color: darken($brand-success, 12%);
+  }
+}

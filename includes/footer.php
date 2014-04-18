@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
     	<div class="col-sm-3">
-    		<h4><i class="fa fa-lock vr-fa-circled-small"></i> My Account</h4>
+    		<h5><i class="fa fa-lock vr-fa-circled-small"></i> My Account</h5>
         <hr>
         <ul class="fa-ul">
           <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="#">Shipping &amp; Returns</a></li>
@@ -13,7 +13,7 @@
         </ul>
     	</div>
     	<div class="col-sm-3">
-    		<h4><i class="fa fa-info vr-fa-circled-small"></i> Information</h4>
+    		<h5><i class="fa fa-info vr-fa-circled-small"></i> Information</h5>
         <hr>
         <ul class="fa-ul">
           <li><i class="fa-li fa fa-arrow-circle-right"></i><a href="#">About Us</a></li>
@@ -23,7 +23,7 @@
         </ul>
     	</div>
     	<div class="col-sm-3">
-    		<h4><i class="fa fa-envelope vr-fa-circled-small"></i> Monthly Newsletter</h4>
+    		<h5><i class="fa fa-envelope vr-fa-circled-small"></i> Monthly Newsletter</h5>
         <hr>
         <p>Stay up to date on the latest fashion trends and new arrivals.</p>
         <form role="form">
@@ -35,7 +35,7 @@
 
     	</div>
     	<div class="col-sm-3">
-    		<h4><i class="fa fa-map-marker vr-fa-circled-small"></i> Connect with Us</h4>
+    		<h5><i class="fa fa-map-marker vr-fa-circled-small"></i> Connect with Us</h5>
         <hr>
         <address>
           Vip Room<br>
@@ -44,8 +44,14 @@
         </address>
         <address>
           Customer Service Line<br>
-          <span class="h3">+001.666.868.12</span>
+          <span class="lead">+001.666.868.12</span>
         </address>
+        <ul class="list-inline">
+          <li><a href="#"><i class="fa fa-twitter vr-fa-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook vr-fa-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-envelope vr-fa-square"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest vr-fa-square"></i></a></li>
+        </ul>
     	</div>
     </div><!-- .row -->
   </div><!-- .container -->
@@ -62,5 +68,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/javascripts/bootstrap.min.js"></script>
+<script src="/javascripts/scripts.js"></script>
 </body>
 </html>

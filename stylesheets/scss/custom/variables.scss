@@ -10,6 +10,8 @@ $brand-danger:          #f16f3d;
 
 // Typography
 $font-family-sans-serif: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$link-color:            lighten($brand-primary, 20%);
+$text-muted:            #eee;
 
 // Scaffolding
 $body-bg:               #f2f2f2;
