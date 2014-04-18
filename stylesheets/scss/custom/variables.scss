@@ -22,3 +22,10 @@ $border-radius-base:    0;
 // Buttons
 $btn-font-weight:       lighter;
 $btn-default-border:    transparent;
+
+
+// Grid (make un-responsive)
+// http://stackoverflow.com/questions/17935601/how-to-remove-responsive-features-in-twitter-bootstrap-3
+$container-tablet:             -9999px;
+$container-desktop:            -9999px;
+$container-large-desktop:      -9999px;

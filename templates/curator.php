@@ -26,8 +26,8 @@
 
 <div class="container">
   <div class="row">
-    <h3 class="text-primary col-md-12">For Her</h3>
-    <div class="product col-md-3">
+    <h3 class="text-primary col-xs-12">For Her</h3>
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -35,7 +35,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -43,7 +43,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -51,7 +51,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -59,7 +59,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -67,7 +67,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -75,7 +75,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -83,7 +83,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -96,8 +96,8 @@
 
 <div class="container">
   <div class="row">
-    <h3 class="text-primary col-md-12">For Him</h3>
-    <div class="product col-md-3">
+    <h3 class="text-primary col-xs-12">For Him</h3>
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -105,7 +105,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -113,7 +113,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>
@@ -121,7 +121,7 @@
       <p>Oversized drop-waist cloque dress</p>
       <p>HK$ 19,402 <small>HK$ 24,299</small></p>
     </div><!-- .product -->
-    <div class="product col-md-3">
+    <div class="product col-xs-3">
       <img src="http://placekitten.com/213/213" alt="" />
       <span class="product-likes"><i class="fa fa-heart text-primary"></i> 683</span>
       <h3>Victoria, Victoria Beckham</h3>

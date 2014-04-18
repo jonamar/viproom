@@ -6,7 +6,7 @@
     <div class="row">
 
       <!-- Right Column / Gallery -->
-      <div class="col-md-5">
+      <div class="col-xs-5">
         <div class="carousel slide article-slide" id="article-photo-carousel">
 
           <!-- Wrapper for slides -->
@@ -44,24 +44,24 @@
       </div>
 
       <!-- Left Column -->
-      <div class="col-md-6 col-md-offset-1">
+      <div class="col-xs-6 col-xs-offset-1">
 
         <!-- Header -->
         <header class="row">
-          <h3 class="col-md-8">Burberry Prorsum</h3>
-          <ul class="col-md-4 list-inline">
+          <h3 class="col-xs-8">Burberry Prorsum</h3>
+          <ul class="col-xs-4 list-inline">
             <li><a href="#"><i class="fa fa-twitter vr-fa-square"></i></a></li>
             <li><a href="#"><i class="fa fa-facebook vr-fa-square"></i></a></li>
             <li><a href="#"><i class="fa fa-pinterest vr-fa-square"></i></a></li>
           </ul>
-          <div class="col-md-12">
+          <div class="col-xs-12">
             <hr>
           </div>
         </header><!-- .row -->
 
         <!-- Price and Details -->
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-xs-7">
             <p class="h3 text-primary">HK$ 4,937</p>
             <ul>
               <li>Pink Silicone</li>
@@ -70,17 +70,17 @@
               <li>Designer color: Pale Cameo Pink</li>
             </ul>
           </div>
-          <div class="col-md-5">
+          <div class="col-xs-5">
             <img class="pull-right" src="/images/guarantee.png" alt="authenticity guarantee"/>
           </div>
-          <div class="col-md-12">
+          <div class="col-xs-12">
             <hr>
           </div>
         </div><!-- .row -->
 
         <!-- Size -->
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-xs-12">
             <h4>Size</h4>
             <ul class="nav nav-pills">
               <li class="active"><a href="#">70</a></li>
@@ -94,7 +94,7 @@
 
         <!-- Quantity and Purchase -->
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-xs-4">
             <h4>Quantity</h4>
             <div class="input-group">
               <span class="input-group-btn">
@@ -110,7 +110,7 @@
               </span>
             </div><!-- .input-group -->
           </div>
-          <div class="col-md-offset-1 col-md-7">
+          <div class="col-xs-offset-1 col-xs-7">
             <button class="btn btn-danger" type="submit">Add to Shopping Cart</button>
             <button class="btn btn-default" type="submit">Add to Wishlist</button>
           </div>
@@ -122,7 +122,7 @@
 <!-- Curator Recommendations and Comments -->
 <div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-xs-6">
       <hr>
       <h4>Curator Recommendations</h4>
       <div class="media">
@@ -143,124 +143,128 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div><!-- .media -->
-    </div><!-- .col-md-6 -->
-    <div class="col-md-6">
+    </div><!-- .col-xs-6 -->
+    <div class="col-xs-6">
       <hr>
       <h4>Most Recent Comments</h4>
       <p><i span="fa fa-comments text-primary"></i> 13 Comments</p>
-    </div><!-- .col-md-6 -->
+    </div><!-- .col-xs-6 -->
   </div><!-- .row -->
 </div><!-- .container -->
 
 <!-- You might like -->
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <hr>
     </div>
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <h4>You Might like</h4>
-    </div><!-- .col-md-12 -->
-    <img class="col-md-3" src="http://placehold.it/250" />
-    <img class="col-md-3" src="http://placehold.it/250" />
-    <img class="col-md-3" src="http://placehold.it/250" />
-    <img class="col-md-3" src="http://placehold.it/250" />
+    </div><!-- .col-xs-12 -->
+    <img class="col-xs-3" src="http://placehold.it/250" />
+    <img class="col-xs-3" src="http://placehold.it/250" />
+    <img class="col-xs-3" src="http://placehold.it/250" />
+    <img class="col-xs-3" src="http://placehold.it/250" />
   </div><!-- .row -->
 </div><!-- .container -->
 
 <!-- Size chart -->
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <hr>
     </div>
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <h4>Size Chart</h4>
-    </div><!-- .col-md-12 -->
-    <img class="col-md-9" src="http://placehold.it/728x250" />
+    </div><!-- .col-xs-12 -->
+    <img class="col-xs-9" src="http://placehold.it/728x250" />
   </div><!-- .row -->
 </div><!-- .container -->
 
 <!-- Product Details and Photos -->
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <hr>
     </div>
-    <div class="col-md-9">
+    <div class="col-xs-9">
       <h4>Product Details &amp; Photos</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-    </div><!-- .col-md-9 -->
-    <img class="col-md-6" src="http://placehold.it/600x700" />
-    <img class="col-md-6" src="http://placehold.it/600x700" />
-    <img class="col-md-6" src="http://placehold.it/600x700" />
-    <img class="col-md-6" src="http://placehold.it/600x700" />
+    </div><!-- .col-xs-9 -->
+    <img class="col-xs-6" src="http://placehold.it/600x700" />
+    <img class="col-xs-6" src="http://placehold.it/600x700" />
+    <img class="col-xs-6" src="http://placehold.it/600x700" />
+    <img class="col-xs-6" src="http://placehold.it/600x700" />
   </div><!-- .row -->
 </div><!-- .container -->
 
 <!-- Care and Instructions -->
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <hr>
     </div>
-    <div class="col-md-9">
+    <div class="col-xs-9">
       <h4>Care &amp; Instructions</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-    </div><!-- .col-md-9 -->
-    <div class="col-md-6">
+    </div><!-- .col-xs-9 -->
+    <div class="col-xs-6">
       <img src="http://placehold.it/455x250" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
-    </div><!-- .col-md-6 -->
-    <div class="col-md-6">
+    </div><!-- .col-xs-6 -->
+    <div class="col-xs-6">
       <img src="http://placehold.it/455x250" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
-    </div><!-- .col-md-6 -->
-    <div class="col-md-6">
+    </div><!-- .col-xs-6 -->
+    <div class="col-xs-6">
       <img src="http://placehold.it/455x250" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
-    </div><!-- .col-md-6 -->
-    <div class="col-md-6">
+    </div><!-- .col-xs-6 -->
+    <div class="col-xs-6">
       <img src="http://placehold.it/455x250" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
-    </div><!-- .col-md-6 -->
+    </div><!-- .col-xs-6 -->
   </div><!-- .row -->
 </div><!-- .container -->
 
 <!-- Brand Information and Guarantee -->
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
       <hr>
     </div>
-    <div class="col-md-9">
+    <div class="col-xs-9">
       <h4>Brand Information &amp; Guarantee</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-    </div><!-- .col-md-9 -->
-    <img class="col-md-offset-1 col-md-2" src="http://placehold.it/400" />
-    <img class="col-md-2" src="/images/guarantee.png" />
-    <div class="col-md-offset-1 col-md-9">
+    </div><!-- .col-xs-9 -->
+    <img class="col-xs-offset-1 col-xs-2" src="http://placehold.it/400" />
+    <img class="col-xs-2" src="/images/guarantee.png" />
+    <div class="col-xs-offset-1 col-xs-9">
       <h4>Brand Information &amp; Guarantee</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-    </div><!-- .col-md-9 -->
+    </div><!-- .col-xs-9 -->
   </div><!-- .row -->
 </div><!-- .container -->
+
+<aside class="affix">
+  test
+</aside>
 
 
 <?php include '../includes/footer.php'; ?>

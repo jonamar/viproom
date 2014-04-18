@@ -3,12 +3,12 @@
     <div class="row">
 
       <!-- logo -->
-      <div class="col-md-2">
+      <div class="col-xs-2">
         <img class="logo" src="/images/vip-room-logo.png" />
       </div>
 
       <!-- account buttons -->
-      <div class="col-md-10">
+      <div class="col-xs-10">
         <ul class="list-box list-unstyled pull-right">
           <li>
             <a class="btn btn-primary" href="#">
@@ -74,12 +74,12 @@
             </div><!-- .btn-group -->
           </li>
         </ul><!-- .list-box -->
-      </div><!-- .col-md-10 -->
+      </div><!-- .col-xs-10 -->
     </div><!-- .row -->
 
     <!-- category nav -->
     <div class="row category-nav" data-spy="affix" data-offset-top="87">
-      <div class="col-md-12">
+      <div class="col-xs-12">
         <img class="logo-fixed" src="/images/vip-room-logo.png" height="50"/>
         <ul class="list-inline list-nav">
           <li>
@@ -112,7 +112,7 @@
 <div class="container">
   <!-- breadcrumb & search -->
   <div class="row bread-n-search">
-    <div class="col-md-offset-2 col-md-6">
+    <div class="col-xs-offset-2 col-xs-6">
       <ol class="breadcrumb">
         <li>
           <a href="#">Fashion</a>
@@ -124,11 +124,11 @@
           Ni Ni
         </li>
       </ol>
-    </div><!-- .col-md-offset-2.col-md-6 -->
-    <div class="col-md-4">
+    </div><!-- .col-xs-offset-2.col-xs-6 -->
+    <div class="col-xs-4">
       <div class="search input-group pull-right">
         <input type="text" class="form-control input-sm" placeholder="Search">
       </div><!-- .input-group -->
-    </div><!-- col-md-4 -->
+    </div><!-- col-xs-4 -->
   </div><!-- .row.bread-n-search -->
 </div><!-- .container -->
