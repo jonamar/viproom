@@ -1,7 +1,7 @@
 // Sticky Footer
 .stickyfooter {
   position: fixed;
-  z-index: 100;
+  z-index: 10000;
   bottom: 0;
   width: 100%;
   -webkit-transition: all 1s;
@@ -13,7 +13,7 @@
     right: 0;
     line-height: 34px;
     padding: 0 20px;
-    background: $navbar-inverse-bg;
+    background:rgba($gray-darker, 0.975);
     color: $body-bg;
 
     &.showhide-button:hover {
@@ -24,9 +24,8 @@
 
   #stickyfooter {
       height: 270px;
-      background:#e9e9e9;
+      background:rgba($gray-darker, 0.975);
       padding-top: 20px;
-      background: $navbar-inverse-bg;
       color: $body-bg;
   }
 

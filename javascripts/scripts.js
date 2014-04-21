@@ -1,8 +1,8 @@
 $(function() { // Document Ready
 
 
-  //plugin bootstrap minus and plus
-  //http://jsfiddle.net/laelitenetwork/puJ6G/
+  // Bootstrap minus and plus
+  // http://jsfiddle.net/laelitenetwork/puJ6G/
   $('.btn-number').click(function(e){
       e.preventDefault();
 
@@ -100,7 +100,7 @@ $(function() { // Document Ready
       else
       {
          $stickyfootertitle.animate({
-              bottom:'270px'
+              bottom:'271px'
           }, "fast").toggleClass('closed');
       }
   });

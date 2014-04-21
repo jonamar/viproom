@@ -1,7 +1,7 @@
 // core
 @import "_typography.scss";
 @import "_unresponsive.scss";
-
+@import "_helpers.scss";
 
 // structural
 @import "_nav.scss";
@@ -10,3 +10,6 @@
 // modular
 @import "_icons.scss";
 @import "_carousel.scss";
+
+// page
+@import "_curator.scss";

@@ -37,3 +37,11 @@ hr {
   margin-bottom: 10px;
   border-color: $gray-light;
 }
+
+// helper classes
+.text-primary-lighter {
+  color: $brand-primary-lighter;
+}
+.text-primary-light{
+  color: $brand-primary-light;
+}
