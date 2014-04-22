@@ -2,44 +2,18 @@
 <?php include '../includes/nav.php'; ?>
 
 <!-- Core Details -->
-<div class="container">
+<div class="container margin-bottom">
     <div class="row">
 
       <!-- Right Column / Gallery -->
-      <div class="col-xs-5">
-        <div class="carousel slide article-slide" id="article-photo-carousel">
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner cont-slider">
-            <div class="item active">
-              <img src="http://placehold.it/600" alt="">
-            </div>
-            <div class="item">
-              <img src="http://placehold.it/600" alt="">
-            </div>
-            <div class="item">
-              <img src="http://placehold.it/600" alt="">
-            </div>
-            <div class="item">
-              <img src="http://placehold.it/600" alt="">
-            </div>
-          </div>
-
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
-              <img alt="" src="http://placehold.it/600">
-            </li>
-            <li class="" data-slide-to="1" data-target="#article-photo-carousel">
-              <img alt="" src="http://placehold.it/600">
-            </li>
-            <li class="" data-slide-to="2" data-target="#article-photo-carousel">
-              <img alt="" src="http://placehold.it/600">
-            </li>
-            <li class="" data-slide-to="3" data-target="#article-photo-carousel">
-              <img alt="" src="http://placehold.it/600">
-            </li>
-          </ol>
+      <div class="col-xs-offset-1 col-xs-4">
+        <div class="poster">
+          <div class="banner new">
+            <p>
+              New
+            </p>
+          </div><!-- .banner -->
+          <img class="width-100" src="http://placehold.it/300x400" alt="">
         </div>
       </div>
 
@@ -48,7 +22,7 @@
 
         <!-- Header -->
         <header class="row">
-          <h3 class="col-xs-8" id="title">Burberry Prorsum</h3>
+          <h3 class="col-xs-8" id="title">Geo Black Bear</h3>
           <ul class="col-xs-4 list-inline">
             <li><a href="#"><i class="fa fa-twitter vr-fa-square"></i></a></li>
             <li><a href="#"><i class="fa fa-facebook vr-fa-square"></i></a></li>
@@ -62,13 +36,8 @@
         <!-- Price and Details -->
         <div class="row">
           <div class="col-xs-7">
-            <p class="h3 text-primary">HK$ 4,937</p>
-            <ul>
-              <li>Pink Silicone</li>
-              <li>Floral embellishment, gold studs</li>
-              <li>Adjustable push-stud fastening</li>
-              <li>Designer color: Pale Cameo Pink</li>
-            </ul>
+            <p class="h3 text-primary">HK$ 397</p>
+            <p class="lead">By THREE OF THE POSSESSED</p>
           </div>
           <div class="col-xs-5">
             <img class="pull-right" src="/images/guarantee.png" alt="authenticity guarantee"/>
@@ -83,10 +52,10 @@
           <div class="col-xs-12">
             <h4>Size</h4>
             <ul class="nav nav-pills">
-              <li class="active"><a href="#">70</a></li>
-              <li><a href="#">75</a></li>
-              <li><a href="#">80</a></li>
-              <li><a href="#">85</a></li>
+              <li class="active"><a href="#">A4 <small>(21x30cm)</small></a></li>
+              <li><a href="#">A3 <small>(21x30cm)</small></a></li>
+              <li><a href="#">A2 <small>(21x30cm)</small></a></li>
+              <li><a href="#">A1 <small>(21x30cm)</small></a></li>
             </ul><!-- .nav-pills -->
             <hr>
           </div>
@@ -120,7 +89,7 @@
 </div><!-- .container -->
 
 <!-- Sidebar -->
-<aside class="sticky-sidebar" data-spy="affix" data-offset-top="635">
+<aside class="sticky-sidebar" data-spy="affix" data-offset-top="645">
   <?php include '../includes/sidebar.php' ?>
 </aside>
 
@@ -149,10 +118,56 @@
         </div>
       </div><!-- .media -->
     </div><!-- .col-xs-6 -->
-    <div class="col-xs-6">
+    <div class="col-xs-6 comments">
       <hr>
-      <h4>Most Recent Comments</h4>
-      <p><i span="fa fa-comments text-primary"></i> 13 Comments</p>
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 class="pull-left">Most Recent Comments</h4>
+          <p class="pull-right"><i class="fa fa-comments text-primary-lighter"></i> 4 Comments</p>
+        </div>
+      </div>
+      <div class="row comment">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Mei says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row comment">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Lauren says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row comment hide">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Mei says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row comment hide">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Mei says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn btn-link pull-right" id="comments-show-hide"><i class="fa fa-arrow-circle-down"></i> View More Comments</strong></button>
+        </div>
+      </div><!-- .show-hide -->
     </div><!-- .col-xs-6 -->
   </div><!-- .row -->
 </div><!-- .container -->
@@ -173,16 +188,34 @@
   </div><!-- .row -->
 </div><!-- .container -->
 
-<!-- Size chart -->
+<!-- Poster Details & About the Artist -->
 <div class="container margin-bottom">
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-xs-6">
       <hr>
-    </div>
-    <div class="col-xs-12">
-      <h4>Size Chart</h4>
-    </div><!-- .col-xs-12 -->
-    <img class="col-xs-9" src="http://placehold.it/728x250" />
+      <h4>Poster Details</h4>
+      <dl class="dl-horizontal poster-details">
+        <div class="margin-bottom-small">
+          <dt>Material</dt>
+          <dd>Pure-white paper with a grammage of 200 g / m 2 </dd>
+        </div>
+        <div class="margin-bottom-small">
+          <dt>Finish</dt>
+          <dd>Satin</dd>
+        </div>
+        <div>
+          <dt>Print</dt>
+          <dd>Printed with the latest high-end Epson printers</dd>
+        </div>
+      </dl>
+    </div><!-- .col-xs-6 -->
+    <div class="col-xs-6">
+      <hr>
+      <h4>About the Artists</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div><!-- .col-xs-6 -->
   </div><!-- .row -->
 </div><!-- .container -->
 
@@ -202,45 +235,6 @@
     <img class="col-xs-6 margin-bottom" src="http://placehold.it/600x700" />
     <img class="col-xs-6" src="http://placehold.it/600x700" />
     <img class="col-xs-6" src="http://placehold.it/600x700" />
-  </div><!-- .row -->
-</div><!-- .container -->
-
-<!-- Care and Instructions -->
-<div class="container margin-bottom">
-  <div class="row">
-    <div class="col-xs-12">
-      <hr>
-    </div>
-    <div class="col-xs-9">
-      <h4>Care &amp; Instructions</h4>
-      <p class="margin-bottom">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div><!-- .col-xs-9 -->
-    <div class="col-xs-6 margin-bottom">
-      <img src="http://placehold.it/455x250" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-    </div><!-- .col-xs-6 -->
-    <div class="col-xs-6 margin-bottom">
-      <img src="http://placehold.it/455x250" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-    </div><!-- .col-xs-6 -->
-    <div class="col-xs-6">
-      <img src="http://placehold.it/455x250" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-    </div><!-- .col-xs-6 -->
-    <div class="col-xs-6">
-      <img src="http://placehold.it/455x250" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-    </div><!-- .col-xs-6 -->
   </div><!-- .row -->
 </div><!-- .container -->
 

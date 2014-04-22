@@ -243,9 +243,6 @@
           <button class="btn btn-link pull-right" id="comments-show-hide"><i class="fa fa-arrow-circle-down"></i> View More Comments</strong></button>
         </div>
       </div><!-- .show-hide -->
-
-
-
     </div><!-- .col-xs-6 -->
   </div><!-- .row -->
 </div><!-- .container -->
