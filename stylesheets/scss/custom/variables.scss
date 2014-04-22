@@ -12,7 +12,7 @@ $brand-danger:          #f16f3d;
 $brand-primary-light:   lighten($brand-primary, 20%);
 $brand-primary-lighter: lighten($brand-primary, 55%);
 
-$white:                 #fff;  
+$white:                 #fff;
 
 $gray-lighter:           lighten(#000, 90%) !default; // #eee
 
@@ -26,6 +26,9 @@ $body-bg:               #f2f2f2;
 
 // Components
 $border-radius-base:    0;
+$border-radius-large:   $border-radius-base;
+$border-radius-small:   $border-radius-base;
+
 
 // Buttons
 $btn-font-weight:       lighter;

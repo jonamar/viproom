@@ -100,7 +100,7 @@ $(function() { // Document Ready
       else
       {
          $stickyfootertitle.animate({
-              bottom:'271px'
+              bottom:'270px'
           }, "fast").toggleClass('closed');
       }
   });
@@ -108,7 +108,7 @@ $(function() { // Document Ready
   // COMMENTS SHOW/HIDE
   $('#comments-show-hide').click(function(){
     $('.comments .hide').removeClass('hide');
-    $(this).addClass('disabled');
+    $(this).addClass('hide');
   });
 
 });// end: document ready

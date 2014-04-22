@@ -1,3 +1,31 @@
+$legal-footer-height: 35px;
+
+// Legal Footer
+body, html {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: $legal-footer-height * -1;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: $legal-footer-height;
+}
+
+.legal-footer {
+  padding-top: 7px;
+  height: $legal-footer-height;
+
+  p {
+    margin-bottom: 8px;
+  }
+}
+
 // Sticky Footer
 .stickyfooter {
   position: fixed;
@@ -11,7 +39,7 @@
     position:absolute;
     bottom: 0;
     right: 0;
-    line-height: 34px;
+    line-height: $legal-footer-height;
     padding: 0 20px;
     background:rgba($gray-darker, 0.975);
     color: $body-bg;
@@ -33,14 +61,5 @@
     -webkit-transform: rotateZ(180deg);
     -ms-transform: rotateZ(180deg);
     transform: rotateZ(180deg);
-  }
-}
-
-// Legal Footer
-.legal-footer {
-  padding-top: 8px;
-
-  p {
-    margin-bottom: 8px;
   }
 }

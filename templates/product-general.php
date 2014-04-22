@@ -106,7 +106,7 @@
         <!-- Price and Details -->
         <div class="row">
           <div class="col-xs-7">
-            <p class="h3 text-primary">HK$ 4,937</p>
+            <p class="h3 text-primary">HK$ 4,937 <small class="sale">HK$ 4,443</small></p>
             <ul>
               <li>Pink Silicone</li>
               <li>Floral embellishment, gold studs</li>

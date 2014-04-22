@@ -1,0 +1,49 @@
+.home-bg, .home-big-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: $gray-darker url(/images/home-background.jpg) no-repeat center 100px;
+}
+.home-bg {
+  z-index: -2;
+  background: $gray-darker url(/images/home-background.jpg) no-repeat center 100px;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.home-big-logo {
+  top: 70px;
+  bottom: 20px;
+  z-index: -1;
+  background: transparent url(/images/vip-room.png) no-repeat center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.sign-up {
+  background: rgba($gray-darker,.95);
+  padding: 20px 20px;
+  color: $gray-lighter;
+  text-align: center;
+
+  .btn:hover i {
+    color: $white !important;
+  }
+
+  h1 {
+    font-weight: lighter;
+  }
+
+  form {
+    margin-bottom: 5px;
+
+    input {
+      border: none;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+}

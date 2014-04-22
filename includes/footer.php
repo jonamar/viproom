@@ -1,3 +1,5 @@
+</div><!-- .page-wrap -->
+
 <div class="stickyfooter">
   <a id="showhide-button" class="showhide-button closed" href="#">My Account, Info &amp; More <i class="fa fa-long-arrow-down vr-fa-circled-xs"></i></a>
   <div id="stickyfooter">

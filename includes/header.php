@@ -23,3 +23,4 @@
     <![endif]-->
   </head>
   <body>
+  <div class="page-wrap">
