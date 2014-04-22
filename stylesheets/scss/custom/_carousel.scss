@@ -1,4 +1,4 @@
-$thumb-size: 75px;
+$thumb-size: 85px;
 
 /* Main carousel style */
 .carousel {
@@ -14,7 +14,7 @@ $thumb-size: 75px;
   margin-bottom: ($thumb-size + 20px);
 
   .carousel-indicators {
-    bottom: ($thumb-size + 20px) * -1;
+    bottom: -111px;
     left: 0;
     margin-left: 0;
     width: 100%;
@@ -26,9 +26,13 @@ $thumb-size: 75px;
       height: $thumb-size;
       margin-bottom: 5px;
       margin-left: 0;
-      margin-right: 5px !important;
+      margin-right: 11px !important;
       margin-top: 0;
       width: $thumb-size;
+    }
+
+    li:last-of-type {
+      margin-right: 0 !important;
     }
 
     img {

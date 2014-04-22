@@ -37,6 +37,13 @@ $vr-list-box-right: 436px;
     width: 116px;
     height: 33px;
   }
+  .btn.btn-default {
+    color: $gray-light;
+
+    .vr-fa-circled:before {
+      border-color: $gray-light;
+    }
+  }
 }
 
 // hover animations
@@ -58,6 +65,9 @@ i {
   .vr-fa-circled:before {
     background: white;
   }
+  &.btn-default .vr-fa-circled:before {
+    color: $gray;
+  }
 }
 
 // hover icon color
@@ -76,7 +86,9 @@ i {
 .btn-danger:hover i {
   color: $brand-danger;
 }
-
+.btn-default:hover i {
+  color: $gray-lighter;
+}
 
 // category nav
 .category-nav {
@@ -125,7 +137,6 @@ i {
   }
 }
 
-
 // breadcrumbs and search
 .bread-n-search {
   margin-top: -76px;
@@ -163,5 +174,22 @@ i {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
+  }
+}
+
+// Sidebar
+.sticky-sidebar {
+  width: 100px;
+  right: 0;
+
+  &.affix-top {
+    position: absolute;
+  }
+  &.affix {
+    top: 50px;
+  }
+  .list-box {
+    width: 83px;
+    border: 5px solid $gray-lighter;
   }
 }

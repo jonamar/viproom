@@ -105,4 +105,10 @@ $(function() { // Document Ready
       }
   });
 
+  // COMMENTS SHOW/HIDE
+  $('#comments-show-hide').click(function(){
+    $('.comments .hide').removeClass('hide');
+    $(this).addClass('disabled');
+  });
+
 });// end: document ready

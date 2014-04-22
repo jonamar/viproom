@@ -12,15 +12,59 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner cont-slider">
             <div class="item active">
+              <div class="banner sold-out">
+                <p>
+                  Sold Out
+                </p>
+              </div><!-- .banner -->
+              <div class="banner sale">
+                <p>
+                  10%<br>
+                  Off
+                </p>
+              </div><!-- .banner -->
               <img src="http://placehold.it/600" alt="">
             </div>
             <div class="item">
+              <div class="banner sold-out">
+                <p>
+                  Sold Out
+                </p>
+              </div><!-- .banner -->
+              <div class="banner sale">
+                <p>
+                  10%<br>
+                  Off
+                </p>
+              </div><!-- .banner -->
               <img src="http://placehold.it/600" alt="">
             </div>
             <div class="item">
+              <div class="banner sold-out">
+                <p>
+                  Sold Out
+                </p>
+              </div><!-- .banner -->
+              <div class="banner sale">
+                <p>
+                  10%<br>
+                  Off
+                </p>
+              </div><!-- .banner -->
               <img src="http://placehold.it/600" alt="">
             </div>
             <div class="item">
+              <div class="banner sold-out">
+                <p>
+                  Sold Out
+                </p>
+              </div><!-- .banner -->
+              <div class="banner sale">
+                <p>
+                  10%<br>
+                  Off
+                </p>
+              </div><!-- .banner -->
               <img src="http://placehold.it/600" alt="">
             </div>
           </div>
@@ -48,7 +92,7 @@
 
         <!-- Header -->
         <header class="row">
-          <h3 class="col-xs-8">Burberry Prorsum</h3>
+          <h3 class="col-xs-8" id="title">Burberry Prorsum</h3>
           <ul class="col-xs-4 list-inline">
             <li><a href="#"><i class="fa fa-twitter vr-fa-square"></i></a></li>
             <li><a href="#"><i class="fa fa-facebook vr-fa-square"></i></a></li>
@@ -111,16 +155,21 @@
             </div><!-- .input-group -->
           </div>
           <div class="col-xs-offset-1 col-xs-7">
-            <button class="btn btn-danger" type="submit">Add to Shopping Cart</button>
-            <button class="btn btn-default" type="submit">Add to Wishlist</button>
+            <button class="btn btn-danger width-100 margin-bottom-small" type="submit">Add to Shopping Cart</button>
+            <button class="btn btn-default width-100" type="submit">Add to Wishlist</button>
           </div>
         </div><!-- .row -->
       </div>
     </div><!-- .row -->
 </div><!-- .container -->
 
+<!-- Sidebar -->
+<aside class="sticky-sidebar" data-spy="affix" data-offset-top="645">
+  <?php include '../includes/sidebar.php' ?>
+</aside>
+
 <!-- Curator Recommendations and Comments -->
-<div class="container">
+<div class="container margin-bottom">
   <div class="row">
     <div class="col-xs-6">
       <hr>
@@ -144,16 +193,65 @@
         </div>
       </div><!-- .media -->
     </div><!-- .col-xs-6 -->
-    <div class="col-xs-6">
+    <div class="col-xs-6 comments">
       <hr>
-      <h4>Most Recent Comments</h4>
-      <p><i span="fa fa-comments text-primary"></i> 13 Comments</p>
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 class="pull-left">Most Recent Comments</h4>
+          <p class="pull-right"><i class="fa fa-comments text-primary-lighter"></i> 4 Comments</p>
+        </div>
+      </div>
+      <div class="row comment">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Mei says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row comment">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Lauren says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row comment hide">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Mei says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row comment hide">
+        <div class="col-xs-12">
+          <p class="author"><strong><a href="#">Mei says:</a></strong></p>
+          <p class="time">1 hour ago</p>
+          <div class="well well-sm">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div><!-- .comment -->
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn btn-link pull-right" id="comments-show-hide"><i class="fa fa-arrow-circle-down"></i> View More Comments</strong></button>
+        </div>
+      </div><!-- .show-hide -->
+
+
+
     </div><!-- .col-xs-6 -->
   </div><!-- .row -->
 </div><!-- .container -->
 
 <!-- You might like -->
-<div class="container">
+<div class="container margin-bottom">
   <div class="row">
     <div class="col-xs-12">
       <hr>
@@ -169,7 +267,7 @@
 </div><!-- .container -->
 
 <!-- Size chart -->
-<div class="container">
+<div class="container margin-bottom">
   <div class="row">
     <div class="col-xs-12">
       <hr>
@@ -182,43 +280,43 @@
 </div><!-- .container -->
 
 <!-- Product Details and Photos -->
-<div class="container">
+<div class="container margin-bottom">
   <div class="row">
     <div class="col-xs-12">
       <hr>
     </div>
     <div class="col-xs-9">
       <h4>Product Details &amp; Photos</h4>
-      <p>
+      <p class="margin-bottom">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div><!-- .col-xs-9 -->
-    <img class="col-xs-6" src="http://placehold.it/600x700" />
-    <img class="col-xs-6" src="http://placehold.it/600x700" />
+    <img class="col-xs-6 margin-bottom" src="http://placehold.it/600x700" />
+    <img class="col-xs-6 margin-bottom" src="http://placehold.it/600x700" />
     <img class="col-xs-6" src="http://placehold.it/600x700" />
     <img class="col-xs-6" src="http://placehold.it/600x700" />
   </div><!-- .row -->
 </div><!-- .container -->
 
 <!-- Care and Instructions -->
-<div class="container">
+<div class="container margin-bottom">
   <div class="row">
     <div class="col-xs-12">
       <hr>
     </div>
     <div class="col-xs-9">
       <h4>Care &amp; Instructions</h4>
-      <p>
+      <p class="margin-bottom">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div><!-- .col-xs-9 -->
-    <div class="col-xs-6">
+    <div class="col-xs-6 margin-bottom">
       <img src="http://placehold.it/455x250" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
     </div><!-- .col-xs-6 -->
-    <div class="col-xs-6">
+    <div class="col-xs-6 margin-bottom">
       <img src="http://placehold.it/455x250" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -240,18 +338,18 @@
 </div><!-- .container -->
 
 <!-- Brand Information and Guarantee -->
-<div class="container">
+<div class="container margin-bottom">
   <div class="row">
     <div class="col-xs-12">
       <hr>
     </div>
     <div class="col-xs-9">
       <h4>Brand Information &amp; Guarantee</h4>
-      <p>
+      <p class="margin-bottom">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div><!-- .col-xs-9 -->
-    <img class="col-xs-offset-1 col-xs-2" src="http://placehold.it/400" />
+    <img class="col-xs-offset-1 col-xs-2" src="http://placehold.it/130" />
     <img class="col-xs-2" src="/images/guarantee.png" />
     <div class="col-xs-offset-1 col-xs-9">
       <h4>Brand Information &amp; Guarantee</h4>
@@ -261,10 +359,5 @@
     </div><!-- .col-xs-9 -->
   </div><!-- .row -->
 </div><!-- .container -->
-
-<aside class="affix">
-  test
-</aside>
-
 
 <?php include '../includes/footer.php'; ?>

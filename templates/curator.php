@@ -23,6 +23,11 @@
   </div><!-- .row -->
 </div><!-- .container -->
 
+<!-- Sidebar -->
+<aside class="sticky-sidebar" data-spy="affix" data-offset-top="465">
+  <?php include '../includes/sidebar.php' ?>
+</aside>
+
 <div class="container">
   <div class="row">
     <h3 class="text-primary col-xs-12">For Her</h3>

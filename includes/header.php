@@ -6,7 +6,7 @@
     <!-- Hiding viewport meta for improved usability while un-responsive
          http://getbootstrap.com/getting-started/#disable-responsive
     <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <title>Bootstrap 101 Template</title>
+    <title>Vip Room</title>
 
     <!-- Typekit -->
     <script type="text/javascript" src="//use.typekit.net/qfp5eye.js"></script>
