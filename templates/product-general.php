@@ -115,7 +115,7 @@
             </ul>
           </div>
           <div class="col-xs-5">
-            <img class="pull-right" src="/images/guarantee.png" alt="authenticity guarantee"/>
+            <img class="pull-right width-66" src="/images/guarantee.png" alt="authenticity guarantee"/>
           </div>
           <div class="col-xs-12">
             <hr>

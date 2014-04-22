@@ -40,7 +40,7 @@
             <p class="lead">By THREE OF THE POSSESSED</p>
           </div>
           <div class="col-xs-5">
-            <img class="pull-right" src="/images/guarantee.png" alt="authenticity guarantee"/>
+            <img class="pull-right width-66" src="/images/guarantee.png" alt="authenticity guarantee"/>
           </div>
           <div class="col-xs-12">
             <hr>
@@ -89,7 +89,7 @@
 </div><!-- .container -->
 
 <!-- Sidebar -->
-<aside class="sticky-sidebar" data-spy="affix" data-offset-top="645">
+<aside class="sticky-sidebar" data-spy="affix" data-offset-top="600">
   <?php include '../includes/sidebar.php' ?>
 </aside>
 

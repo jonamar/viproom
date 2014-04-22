@@ -28,6 +28,7 @@
   <?php include '../includes/sidebar.php' ?>
 </aside>
 
+<!-- Product Cards Grid -->
 <div class="container">
   <div class="row">
     <h3 class="text-primary col-xs-12">For Her</h3>
