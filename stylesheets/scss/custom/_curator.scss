@@ -1,0 +1,124 @@
+.followers i:hover,
+.followers.active i {
+  color: $brand-primary;
+  cursor: pointer;
+}
+
+.notice {
+  background: $brand-primary-lighter;
+  padding: 10px;
+
+  .well {
+    background: $body-bg;
+    border: none;
+    margin: 0;
+  }
+}
+
+.product-card {
+  margin-bottom: 20px;
+
+  // type
+  h5, p {
+    padding: 0 10px;
+  }
+  h5 {
+    margin-top: 10px;
+  }
+  p:last-of-type {
+    padding-bottom: 10px;
+  }
+  hr {
+    border-color: $body-bg;
+  }
+
+  // backgrounds & hover
+  .product-bg, .product-likes {
+    background: $gray-lighter;
+    transition: background .25s ease;
+  }
+  .product-bg {
+    display: block;
+    color: $gray-dark;
+
+    &:hover {
+      text-decoration: none;
+      background: $gray-dark;
+      color: $gray-lighter;
+
+      .product-likes {
+        color: $gray-dark;
+      }
+      .info-overlay {
+        opacity: 1;
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        transform: scale(1, 1);
+      }
+    }
+  }
+
+  // likes
+  .product-likes {
+    display: inline-block;
+    margin: -30px 0 0 1px;
+    position: absolute;
+    padding: 5px 10px;
+    z-index: 1000;
+
+    i {
+      color: $brand-primary-lighter;
+    }
+    &.active i,
+    i:hover {
+      color: $brand-primary;
+    }
+  }
+
+  // price
+  .price {
+    color: $brand-primary-light;
+    font-weight: normal;
+
+    small {
+      color: $gray-light;
+      text-decoration: line-through;
+    }
+  }
+
+  // overlay
+  .info-overlay-container {
+    position: relative;
+
+    img {
+      width: 100%
+    }
+    .info-overlay {
+      transition: all .25s ease;
+      z-index: 100;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba($gray-darker, 0.8);
+      padding: 10px;
+      -webkit-transform: scale(.85, .85);
+      -ms-transform: scale(.85, .85);
+      transform: scale(.85, .85);
+    }
+    h5, p {
+      color: $gray-lighter;
+      line-height: 1.2;
+      margin: 0 0 5px;
+      padding: 0;
+    }
+    p {
+      font-size: $font-size-small;
+    }
+    hr {
+      border-color: $gray-lighter;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+// icon circle borders
+.vr-fa-circled:before, .vr-fa-circled-small:before, .vr-fa-circled-xs:before {
+  border: 1px solid $body-bg;
+  border-radius: 100px;
+  padding-top: 11px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.vr-fa-circled-small:before {
+  padding-top: 6px;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.vr-fa-circled-xs:before {
+  padding-top: 5px;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  margin: 3px;
+}
+
+
+.vr-fa-square {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: $text-muted;
+  background: $brand-success;
+  padding-top: 8px;
+
+  &:hover {
+    background-color: darken($brand-success, 8%);
+    border-color: darken($brand-success, 12%);
+  }
+}

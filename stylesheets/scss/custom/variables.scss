@@ -1,0 +1,42 @@
+// Bootstrap Variables
+// ---------------------
+
+// Colors
+$brand-primary:         #812147;
+$brand-success:         #91a346;
+$brand-info:            #275993;
+$brand-warning:         #8e529e;
+$brand-danger:          #f16f3d;
+
+
+$brand-primary-light:   lighten($brand-primary, 20%);
+$brand-primary-lighter: lighten($brand-primary, 55%);
+
+$white:                 #fff;
+
+$gray-lighter:           lighten(#000, 90%) !default; // #eee
+
+// Typography
+$font-family-sans-serif: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$link-color:            $brand-primary-light;
+$text-muted:            #eee;
+
+// Scaffolding
+$body-bg:               #f2f2f2;
+
+// Components
+$border-radius-base:    0;
+$border-radius-large:   $border-radius-base;
+$border-radius-small:   $border-radius-base;
+
+
+// Buttons
+$btn-font-weight:       lighter;
+$btn-default-border:    transparent;
+
+
+// Grid (make un-responsive)
+// http://stackoverflow.com/questions/17935601/how-to-remove-responsive-features-in-twitter-bootstrap-3
+$container-tablet:             -9999px;
+$container-desktop:            -9999px;
+$container-large-desktop:      -9999px;

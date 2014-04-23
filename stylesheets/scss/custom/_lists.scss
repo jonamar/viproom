@@ -1,0 +1,11 @@
+$dl-title-width: 80px;
+
+.dl-horizontal {
+  dt {
+    width: $dl-title-width;
+  }
+
+  dd {
+    margin-left: $dl-title-width + 20px;
+  }
+}

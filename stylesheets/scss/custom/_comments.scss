@@ -1,0 +1,39 @@
+.comments {
+  .author, .well {
+    float: left;
+  }
+  .time {
+    float: right;
+  }
+
+  .comment {
+    margin-top: 5px;
+  }
+  .well {
+    background: $gray-lighter;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: $white;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 20px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid $white;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .disabled {
+    color: $gray-light;
+  }
+}
