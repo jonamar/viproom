@@ -3,7 +3,7 @@
 
 <div class="container">
   <div class="row">
-    <img class="col-xs-4" src="http://placekitten.com/600/400" alt="" />
+    <img class="col-xs-4" src="http://placehold.it/600x400" alt="" />
     <div class="col-xs-8">
       <div class="row">
         <div class="col-xs-8">
