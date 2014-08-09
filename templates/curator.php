@@ -11,7 +11,7 @@
         </div>
         <!-- NOTE: add .active to .followers to fix darker color -->
         <div class="col-xs-4 followers">
-          <p class="lead"><i class="fa fa-heart text-primary-lighter"></i> 105,231 Followers</p>
+          <p class="lead"><i class="fa fa-heart text-primary-lighter"></i> 105,236 Followers</p>
         </div>
       </div><!-- .row .row -->
       <hr>
