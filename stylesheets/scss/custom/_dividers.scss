@@ -1,0 +1,23 @@
+// vertical borders
+.border-left {
+	border-left: 1px solid $gray-lighter;
+}
+
+.border-right {
+	border-right: 1px solid $gray-lighter;
+}
+
+
+// hr's w labels
+.hr-labelled {
+	margin-bottom: -12px;
+	margin-top: 20px;
+}
+
+.hr-label {
+	display: block;
+	width: 30px;
+	background: white;
+	margin: 0 auto 20px;
+	position: relative;
+}
