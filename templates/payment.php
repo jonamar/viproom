@@ -43,18 +43,16 @@
                 <td>Quantity</td>
                 <td>Shipping</td>
                 <td>Total</td>
-                <td><!--Remove--></td>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>$100000</td>
                 <td>1 <br> 
-                  <small><a href="#"><i class="fa fa-pencil"> </i> change</a></small>
+                  <small><a class="text-muted" href="#"><i class="fa fa-pencil"> </i> change</a></small>
                 </td>
                 <td>$0</td>
                 <td>$100000</td>
-                <td><a href="#">Remove</a></td>
               </tr>              
             </tbody>
           </table>
