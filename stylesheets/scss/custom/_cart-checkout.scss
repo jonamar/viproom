@@ -1,0 +1,119 @@
+// cart breadcrumb
+.cart-breadcrumb {
+    padding: 0;
+    margin-bottom: 20px;
+
+    .breadcrumb-connector {
+    	width: 700px;
+    	margin: 0 auto -15px;
+    	border-top: 5px solid $gray-lighter;
+    }
+
+    li {
+        float: left;
+        width: 25%;
+        list-style: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    span {
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: 0 auto;
+        padding: 3px 0 0;
+        border-radius: 50%;
+        background: $gray-lighter;
+		
+		&.active,
+		&.completed {
+			color: $white;
+		}
+
+		&.active {
+			background: $brand-primary;
+		}
+
+        &.completed {
+			background: $brand-success;
+        }
+    }
+}
+
+
+// cart list
+.item-q {
+	width: 40px
+}
+
+// coupon
+.coupon {
+	padding-bottom: 20px
+}
+
+// cart payments
+.cart-payments {
+	background: $gray-lighter;
+	padding: 15px 15px 0;
+	margin-bottom: 10px;
+	
+	label {
+		text-align: center;
+	}
+
+	input, 
+	img {
+		display: block;
+		margin: 0 auto 5px;		
+	}
+
+	input {
+		width: 12px; 
+	}
+
+	small {
+		font-weight: normal;
+	}
+}
+
+// cart footer
+.cart-footer {
+	background: $gray-lighter;
+	padding: 10px;
+
+	img {
+		margin: 0 auto;
+		width: 100px;
+	}
+	.blurb,
+	.subtotal {
+		margin-top: 24px;
+	}
+	.btn-default {
+		margin: 10px 0;
+	}
+}
+.payments .cart-footer {
+	padding: 10px 10px 0;
+
+	.blurb,
+	.subtotal {
+		margin: 0;
+	}
+
+	i {
+		margin-top: 8px;
+		font-size: 38px;
+		opacity: .5;
+	}
+
+	.btn {
+		margin-top: 30px;
+	}
+}
+
+// checkout
+.checkout button {
+	margin: 0 15px 15px 0;	
+}
