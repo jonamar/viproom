@@ -24,10 +24,10 @@
           <div id="collapseOne" class="panel-collapse collapse in">
             <div class="panel-body">
               <ul>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
               </ul>
             </div>
           </div>
@@ -39,10 +39,10 @@
           <div id="collapseTwo" class="panel-collapse collapse">
             <div class="panel-body">
               <ul>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
               </ul>
             </div>
           </div>
@@ -54,10 +54,10 @@
           <div id="collapseThree" class="panel-collapse collapse">
             <div class="panel-body">
               <ul>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
               </ul>
             </div>
           </div>
@@ -69,10 +69,10 @@
           <div id="collapseFour" class="panel-collapse collapse">
             <div class="panel-body">
               <ul>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
               </ul>
             </div>
           </div>
@@ -84,10 +84,10 @@
           <div id="collapseFive" class="panel-collapse collapse">
             <div class="panel-body">
               <ul>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
               </ul>
             </div>
           </div>
@@ -99,10 +99,10 @@
           <div id="collapseSix" class="panel-collapse collapse">
             <div class="panel-body">
               <ul>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
               </ul>
             </div>
           </div>
@@ -114,10 +114,10 @@
           <div id="collapseSeven" class="panel-collapse collapse">
             <div class="panel-body">
               <ul>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
-                <li>Sub Category</li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
+                <li><a href="#">Sub Category</a></li>
               </ul>
             </div>
           </div>
