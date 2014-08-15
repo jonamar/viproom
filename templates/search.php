@@ -189,9 +189,9 @@
         <div id="product-carousel" class="carousel slide col-xs-12" data-ride="carousel" data-interval="2000">
           <!-- Carousel Indicators -->
           <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#product-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#product-carousel" data-slide-to="1"></li>
+            <li data-target="#product-carousel" data-slide-to="2"></li>
           </ol>
           <!-- Carousel Wrapper for slides -->
           <div class="carousel-inner">
